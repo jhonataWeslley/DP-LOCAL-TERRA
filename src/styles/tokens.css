@@ -1,0 +1,28 @@
+/* Design tokens — paleta extraída da logo TERRA RH & DP. Único lugar para ajustar o visual. */
+:root {
+  /* Cores da marca */
+  --brand-blue: #0279d3;
+  --brand-green: #01a975;
+  --brand-sky: #01a8f7;
+  --brand-ice: #a2dafd;
+  --brand-navy: #021d38;
+
+  /* Derivadas */
+  --navy-900: var(--brand-navy);
+  --navy-800: #0a2c4d;
+  --navy-700: #0b4f8a;
+  --accent: var(--brand-blue);
+  --tint: #eaf5fe;
+
+  --bg: #f4f8fb;
+  --surface: #ffffff;
+  --border: #dde6ee;
+  --text: #0f2236;
+  --muted: #5f7083;
+  --danger: #b3382c;
+  --warn: #a8660b;
+  --ok: #017a55;
+  --radius: 8px;
+  --sidebar-w: 248px;
+  --font: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
